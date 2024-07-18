@@ -1,0 +1,94 @@
+
+.checkout-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #012d8a;
+  margin-top:80px
+}
+
+/* Heading styles */
+.Stripe-Form-Heading {
+  color: #fff9f9;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Booking details container */
+.booking-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Package info styles */
+.package-info {
+  flex: 1;
+}
+
+.package-info h3 {
+  color: #fdfdfd;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.package-info p {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Form container styles */
+.form-container {
+  flex: 1;
+  padding-left: 20px;
+}
+
+/* Label styles */
+.StripeLabel {
+  display: block;
+  font-size: 16px;
+  color: #fafafa;
+  margin-bottom: 8px;
+}
+
+/* Select input styles */
+select, input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Button styles */
+.Stripe-button {
+  width: auto;
+  background-color: #faa80f ;
+  color: #fff;
+  border: none;
+  margin-left: 150px;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Stripe-button:hover {
+  background-color:  #FEBA3F;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .booking-details {
+    flex-direction: column;
+  }
+
+  .form-container {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}

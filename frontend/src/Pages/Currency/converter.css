@@ -1,0 +1,206 @@
+:root {
+    --Primarycolor: #FEBA3F;
+    --Secondarycolor: #1D3D6E;
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33% , 13%);
+    --textColor: hsl(240, 3%, 23%);
+  }
+body{
+    font-size: medium;
+}
+
+  .currencyconverter{
+  background-color: var(--whiteColor);
+  width: 100%;
+  position: relative;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  
+  }
+
+  .currencyconverter .videoDiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-width: 100vw; /* Ensure it doesn't go beyond viewport width */
+    overflow: hidden; /* Hide any overflowing content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .currencyconverter .videoDiv video {
+    height: -moz-max-content;
+    height: max-content;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
+  .currencyconverter .videoDiv::after {
+    content: "";
+    position: absolute;
+    background: rgba(10, 84, 107, 0.307);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mix-blend-mode: multiply;
+  }
+
+  .convertercontainer{
+  width: 60%;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 2rem initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 120px;
+  row-gap: 2rem;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+  }
+
+  h2{
+    padding-top: 20px;
+    font-weight: 600;
+    color: var(--blackColor);
+  }
+
+  .amount {
+    display: flex;
+    align-items: center;
+  }
+  
+  .amount .label {
+    margin-right: 1rem; /* Adjust spacing between label and line */
+    font-weight: 450;
+  }
+  
+  .amount .input {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.0);
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid black; /* Line style */
+    padding: 0.5rem 0; /* Adjust vertical padding if needed */
+  }
+
+  .from,
+.to {
+  display: flex;
+  align-items: center;
+}
+
+.from .label{
+    margin-right: 3.6rem; 
+    font-weight: 450;
+}
+.to .label {
+  margin-right: 3.5rem; 
+  font-weight: 450;
+}
+
+.from select{
+    border: none;
+    background-color: rgba(255, 255, 255, 0); 
+    max-width: 200px;
+
+}
+.to select {
+  border: none;
+  background-color: rgba(255, 255, 255, 0); 
+  max-width: 200px; 
+}
+
+.from select option,
+.to select option {
+  background-color: rgba(255, 255, 255, 0); 
+  color: black; /* Text color for options */
+}
+
+.convert button {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-color: rgba(0, 0, 0, 0.226);
+    height: 2rem;
+    width: 8rem;
+    font-weight: 440;
+    border-radius: 1rem;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+.convert button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Change the hover background color */
+}
+
+.converted{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+/* Add the necessary CSS rules for responsiveness */
+@media screen and (max-width: 768px) {
+  .currencyconverter {
+    align-items: flex-start;
+    padding-top: 120px; /* Adjust padding top */
+  }
+
+  .convertercontainer {
+    width: 80%; /* Adjust width */
+    margin: 20px; /* Adjust margin */
+    padding: 20px; /* Adjust padding */
+  }
+
+  .from .label,
+  .to .label {
+    margin-right: 1rem; /* Adjust margin-right */
+  }
+
+  .from select,
+  .to select {
+    margin-left: auto; /* Push select box to the right */
+    max-width: 100%; /* Adjust max-width */
+  }
+
+  .convert button {
+    width: 100%; /* Adjust button width */
+  }
+}
+
+
+/* Add the necessary CSS rules for responsiveness */
+@media screen and (max-width: 400px) {
+  .currencyconverter {
+    padding-top: 80px; /* Adjust padding top */
+  }
+
+  .convertercontainer {
+    width: 90%; /* Adjust width */
+    margin: 10px; /* Adjust margin */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .from .label,
+  .to .label {
+    margin-right: 0.5rem; /* Adjust margin-right */
+  }
+
+  .from select,
+  .to select {
+    margin-left: auto; /* Push select box to the right */
+    max-width: 100%; /* Adjust max-width */
+  }
+
+  .convert button {
+    width: 100%; /* Adjust button width */
+  }
+}

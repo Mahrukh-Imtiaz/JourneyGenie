@@ -1,0 +1,72 @@
+.chat-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to right top, #20406f,#1d3d6e, #4a5088, #ffe449, #feba3f);
+  }
+
+  .main-chatbot-container {
+    background-image: url(../../Assets/bgAI.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .chatbot-heading {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .message-container {
+    margin-bottom: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .user-message {
+    background-color: #eaf6fd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+  
+  .bot-message {
+    background-color: #ffec7f;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #284d84;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main-chatbot-container {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+  }

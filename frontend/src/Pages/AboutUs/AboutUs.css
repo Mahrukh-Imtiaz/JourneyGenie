@@ -1,0 +1,86 @@
+
+
+  .About-Image {
+    width: 35%;
+  }
+
+  .custom-loader {
+    width: 110px;
+    height: 150px;
+    background: #1D3D6E;
+    border-radius: 50px;
+    -webkit-mask: radial-gradient(circle 31px at 50% calc(100% + 13px),#000 95%,#0000) top 4px left 50%,
+      radial-gradient(circle 31px,#000 95%,#0000) center,
+      radial-gradient(circle 31px at 50% -13px,#000 95%,#0000) bottom 4px left 50%,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-mask-repeat: no-repeat;
+    animation: cu10 1.5s infinite;
+  }
+  
+  @keyframes cu10 {
+    0% {
+      -webkit-mask-size: 0    18px,0    18px,0    18px,auto
+    }
+  
+    16.67% {
+      -webkit-mask-size: 100% 18px,0    18px,0    18px,auto
+    }
+  
+    33.33% {
+      -webkit-mask-size: 100% 18px,100% 18px,0    18px,auto
+    }
+  
+    50% {
+      -webkit-mask-size: 100% 18px,100% 18px,100% 18px,auto
+    }
+  
+    66.67% {
+      -webkit-mask-size: 0    18px,100% 18px,100% 18px,auto
+    }
+  
+    83.33% {
+      -webkit-mask-size: 0    18px,0    18px,100% 18px,auto
+    }
+  
+    100% {
+      -webkit-mask-size: 0    18px,0    18px,0    18px,auto
+    }
+  }
+
+  .showcase-circle {
+
+    width: 10px; 
+    padding: 30px; 
+    background-color: #eb5e28; 
+    border-radius: 100%;
+}
+
+
+  .text-light {
+    color: #fffcf2;
+}
+.text-dark {
+    color: #252422;
+}
+
+.hr-dark {
+  border-color: #252422;
+  border-style: solid;
+  opacity: 0.2;
+  border-width: 1px;
+}
+
+.team-list-item {
+  color: #8f7e7a;
+  font-style: italic;
+  font-weight: 600;
+  font-size: larger;
+  margin-top: 10px;   
+}
+
+  .Main-About-Container{
+    background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+
+  }

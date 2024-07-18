@@ -1,0 +1,51 @@
+.prompt-review-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('../../Assets/travelR.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.content-container {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prompt-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.prompt-review-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  background-color: #1D3D6E;
+  border: none;
+  border-radius: 25px;
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.prompt-review-button:hover {
+  background-color: #3c5f95;
+  transform: scale(1.05);
+}
+
+.prompt-review-button:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .prompt-review-button {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+}

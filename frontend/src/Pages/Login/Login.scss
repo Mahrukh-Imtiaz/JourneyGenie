@@ -1,0 +1,140 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #080710;
+  overflow: hidden; 
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.signup-link a {
+  color: #FEBA3F; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+  color: #3575b9; 
+}
+
+.shape {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape:first-child {
+  background: linear-gradient(#1d3d6e, #183259);
+  left: -80px;
+  top: -80px;
+}
+
+.shape:last-child {
+  background: linear-gradient(to right, #FEBA3F, #F98B2D);
+  right: -80px;
+  bottom: -80px;
+}
+
+.login-form {
+  width: 90%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.13);
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+  text-align: center;
+}
+
+.login-form h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.login-form input {
+  display: block;
+  height: 50px;
+  width: calc(100% - 20px); /* Adjusted width for padding */
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 0 auto;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.login-form input::placeholder {
+  color: #e5e5e5;
+}
+
+.login-button {
+  margin-top: 40px;
+  width: calc(100% - 20px);
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: auto;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease; 
+}
+
+.login-button:hover {
+  background-color: #FEBA3F; 
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    padding: 30px 20px;
+  }
+
+  .login-form h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .login-form label {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .login-form input {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .login-button {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+}

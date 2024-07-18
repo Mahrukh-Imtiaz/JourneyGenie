@@ -1,0 +1,894 @@
+.desktop-1-child {
+    position: absolute;
+    top: -82px;
+    left: 0;
+    width: 100%;
+    height: 501px;
+    object-fit: cover;
+    mix-blend-mode: normal;
+  
+  
+  }
+    .desktop-1-item {
+      position: absolute;
+      top: 50px;
+      left: 124px;
+      width: 321px;
+      height: 97px;
+      mix-blend-mode: multiply;
+    }
+    .my-profile {
+      position: absolute;
+      top: 73px;
+      left: 149px;
+      font-size: 40px;
+      font-weight: 800;
+      color: #1D3D6E;
+      display: inline-block;
+      width: 271px;
+      height: 51px;
+      border-radius: 3px;
+      border-color: #1D3D6E;
+    }
+    .desktop-1-inner {
+      position: absolute;
+      top: 468px;
+      left: 50px;
+      border-radius: 51px;
+      background-color: #23477b;
+      border: 1px solid black;
+      box-sizing: border-box;
+      width: 350px;
+      height: 480px;
+    }
+   
+    .g {
+      position: absolute;
+      top: 600px;
+      left: 100px;
+      font-weight: bold;
+      color: whitesmoke;
+    }
+  
+    .g-label
+    { 
+      position: absolute;
+      top: 600px;
+      left: 200px;
+      color: whitesmoke;
+    }
+  
+    .a{
+      position: absolute;
+      top: 660px;
+      left: 100px;
+      font-weight: bold;
+      color: whitesmoke;
+    }
+  
+    .a-label
+    { 
+      position: absolute;
+      top: 660px;
+      left: 200px;
+      color: whitesmoke;
+    }
+    .t{
+      position: absolute;
+      top: 800px;
+      left: 100px;
+      font-weight: bold;
+      color: whitesmoke;
+    }
+  
+    .t-label
+    { 
+      position: absolute;
+      top: 800px;
+      left:222px;
+      color: whitesmoke;
+    }
+    .e{
+      position: absolute;
+      top: 870px;
+      left: 100px;
+      font-weight: bold;
+      color: whitesmoke;
+    }
+  
+    .e-label
+    { 
+      position: absolute;
+      top: 870px;
+      left:160px;
+      color: whitesmoke;
+      font-size: small ;
+    }
+    .c{
+      position: absolute;
+      top: 730px;
+      left: 100px;
+      font-weight: bold;
+      color: whitesmoke;
+    }
+  
+    .c-label
+    { 
+      position: absolute;
+      top: 730px;
+      left: 200px;
+      color: whitesmoke;
+    }
+    .admin{
+  
+      position: absolute;
+      top: 535px;
+      left: 100px;
+      font-weight: bold;
+      color: whitesmoke;
+     
+    }
+    .admin-label{
+      position: absolute;
+      top: 535px;
+      left: 200px;
+      color: whitesmoke;
+  
+    }
+  
+  
+
+    .gender {
+      top: 663px;
+      left: 100px;
+      display: inline-block;
+      width: 242px;
+      height: 42px;
+      color: whitesmoke;
+    }
+    
+    .country,
+    .email,
+    .travelpreferences {
+      top: 739px;
+      left: 100px;
+      width: 273px;
+      height: 43px;
+      color: whitesmoke;
+    }
+    .email,
+    .travelpreferences {
+      top: 816px;
+      left: 100px;
+      width: 289px;
+      height: 49px;
+      color: whitesmoke;
+    }
+    .email {
+      top: 885px;
+      left: 100px;
+      width: 269px;
+      height: 40px;
+      color: whitesmoke;
+    }
+    .desktop-1-child1,
+    .rectangle-div {
+      position: absolute;
+      top: 564px;
+      left: 490px;
+      border-radius: 31px;
+      background-color: #23477b;
+      width: 810px;
+      border: 1px solid black;
+      height: 196px;
+    }
+    .desktop-1-child1 {
+      top: 787px;
+    }
+    .my-travel-history {
+      position: absolute;
+      top: 472px;
+      left: 475px;
+      font-size: 36px;
+      font-weight: 800;
+      display: inline-block;
+      width: 320px;
+      height: 53px;
+      color:  #1D3D6E;
+    }
+    .entries-container {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .desktop-1-child2,
+    .rectangle-icon {
+      position: absolute;
+      top: 591px;
+      bottom: 691px;
+      left: 520px;
+      width: 220px;
+      height: 148px;
+      object-fit: cover;
+      border-radius: 21px;
+      mix-blend-mode: normal;
+    }
+    .desktop-1-child2 {
+      top: 816px;
+    }
+    .date,
+  
+    .location {
+      position: absolute;
+      top: 648px;
+      left: 830px;
+      font-size: x-large;
+      font-weight: 850;
+      display: inline-block;
+      width: 210px;
+      height: 55px;
+      color:  whitesmoke
+    }
+    
+    
+    .date
+   {
+      top: 648px;
+      left: 1080px;
+      width: 227px;
+      height: 88px;
+      font-size: x-large;
+    }
+   
+    .desktop-1 {
+      width: 100%;
+      position: relative;
+      /* background-color: whitesmoke; */
+      background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+      /* background-image: url(../../Assets/doddlebg.jpg); */
+      height: 1024px;
+      overflow: hidden;
+      text-align: center;
+      font-size: var(--font-size-5xl);
+      color: var(--color-darkslateblue);
+    }
+
+
+
+    @media  (max-width: 1350px)  {
+
+    .desktop-1-child {
+      position: absolute;
+      top: -82px;
+      left: 0;
+      width: 100%;
+      height: 501px;
+      object-fit: cover;
+      mix-blend-mode: normal;
+    
+    
+    }
+      .desktop-1-item {
+        position: absolute;
+        top: 50px;
+        left: 124px;
+        border-radius: var(--br-12xl);
+        width: 321px;
+        height: 97px;
+        mix-blend-mode: multiply;
+      }
+      .my-profile {
+        position: absolute;
+        top: 73px;
+        left: 149px;
+        font-size: 40px;
+        font-weight: 800;
+        color: #1D3D6E;
+        display: inline-block;
+        width: 271px;
+        height: 51px;
+        border-radius: 3px;
+        border-color: #1D3D6E;
+      }
+      .desktop-1-inner {
+        position: absolute;
+        top: 468px;
+        left: 50px;
+        border-radius: 51px;
+        background-color: #23477b;
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 350px;
+        height: 480px;
+      }
+     
+      .g {
+        position: absolute;
+        top: 600px;
+        left: 100px;
+        font-weight: bold;
+        color: whitesmoke;
+      }
+    
+      .g-label
+      { 
+        position: absolute;
+        top: 600px;
+        left: 200px;
+        color: whitesmoke;
+      }
+    
+      .a{
+        position: absolute;
+        top: 660px;
+        left: 100px;
+        font-weight: bold;
+        color: whitesmoke;
+      }
+    
+      .a-label
+      { 
+        position: absolute;
+        top: 660px;
+        left: 200px;
+        color: whitesmoke;
+      }
+      .t{
+        position: absolute;
+        top: 800px;
+        left: 100px;
+        font-weight: bold;
+        color: whitesmoke;
+      }
+    
+      .t-label
+      { 
+        position: absolute;
+        top: 800px;
+        left:222px;
+        color: whitesmoke;
+      }
+      .e{
+        position: absolute;
+        top: 870px;
+        left: 100px;
+        font-weight: bold;
+        color: whitesmoke;
+      }
+    
+      .e-label
+      { 
+        position: absolute;
+        top: 870px;
+        left:160px;
+        color: whitesmoke;
+        font-size: small ;
+      }
+    
+     
+    
+    
+      .c{
+        position: absolute;
+        top: 730px;
+        left: 100px;
+        font-weight: bold;
+        color: whitesmoke;
+      }
+    
+      .c-label
+      { 
+        position: absolute;
+        top: 730px;
+        left: 200px;
+        color: whitesmoke;
+      }
+      .admin{
+    
+        position: absolute;
+        top: 535px;
+        left: 100px;
+        font-weight: bold;
+        color: whitesmoke;
+       
+      }
+      .admin-label{
+        position: absolute;
+        top: 535px;
+        left: 200px;
+        color: whitesmoke;
+    
+      }
+    
+    
+      
+      .gender {
+        top: 663px;
+        left: 100px;
+        display: inline-block;
+        width: 242px;
+        height: 42px;
+        color: whitesmoke;
+      }
+      
+      .country,
+      .email,
+      .travelpreferences {
+        top: 739px;
+        left: 100px;
+        width: 273px;
+        height: 43px;
+        color: whitesmoke;
+      }
+      .email,
+      .travelpreferences {
+        top: 816px;
+        left: 100px;
+        width: 289px;
+        height: 49px;
+        color: whitesmoke;
+      }
+      .email {
+        top: 885px;
+        left: 100px;
+        width: 269px;
+        height: 40px;
+        color: whitesmoke;
+      }
+      .desktop-1-child1,
+      .rectangle-div {
+        position: absolute;
+        top: 564px;
+        left: 420px;
+        border-radius: 31px;
+        background-color: #23477b;
+        width: 750px;
+        border: 1px solid black;
+        height: 196px;
+      }
+      .desktop-1-child1 {
+        top: 787px;
+      }
+      .my-travel-history {
+        position: absolute;
+        top: 472px;
+        left: 415px;
+        font-size: 36px;
+        font-weight: 800;
+        display: inline-block;
+        width: 320px;
+        height: 53px;
+        color:  fff;
+      }
+      .desktop-1-child2,
+      .rectangle-icon {
+        position: absolute;
+        top: 591px;
+        bottom: 691px;
+        left: 470px;
+        width: 220px;
+        height: 148px;
+        object-fit: cover;
+        border-radius: 21px;
+        mix-blend-mode: normal;
+      }
+      .desktop-1-child2 {
+        top: 816px;
+      }
+      .date,
+    
+      .location {
+        position: absolute;
+        top: 648px;
+        left: 730px;
+        font-size: x-large;
+        font-weight: 850;
+        display: inline-block;
+        width: 210px;
+        height: 55px;
+        color:  whitesmoke
+      }
+      
+      
+      .date
+     {
+        top: 648px;
+        left: 920px;
+        width: 227px;
+        height: 88px;
+        font-size: x-large;
+      }
+     
+      .desktop-1 {
+        width: 100%;
+        position: relative;
+        /* background-color: whitesmoke; */
+        background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+  
+        height: 1024px;
+        overflow: hidden;
+        text-align: center;
+        font-size: var(--font-size-5xl);
+        color: var(--color-darkslateblue);
+      }
+
+
+
+    }
+
+  
+    @media  (max-width: 1200px)  {
+      .desktop-1-child {
+        height: 400px; /* Adjust as needed */
+      }
+    
+      .my-profile {
+        position: absolute;
+        top: 53px;
+        left: 40px;
+        font-size: 30px;
+        font-weight: 800;
+        color: #1D3D6E;
+        display: inline-block;
+        width: 271px;
+        height: 51px;
+        border-radius: 3px;
+        border-color: #fff9f9;
+      }
+    
+    
+    
+      .desktop-1-item {
+        position: absolute;
+        top: 30px;
+        left: 24px;
+        border-radius: var(--br-12xl);
+        width: 321px;
+        height: 77px;
+        mix-blend-mode: multiply;
+      }
+    
+    
+      .desktop-1-inner {
+        position: absolute;
+        top: 390px;
+        left: 30px;
+        border-radius: 51px;
+        background-color: #23477b;
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 280px;
+        height: 534px;
+      }
+     
+    
+      .g {
+        position: absolute;
+        top: 540px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .g-label
+      { 
+        position: absolute;
+        top: 540px;
+        left: 180px;
+      }
+    
+      .a{
+        position: absolute;
+        top: 620px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .a-label
+      { 
+        position: absolute;
+        top: 620px;
+        left: 180px;
+      }
+      .t{
+        position: absolute;
+        top: 780px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .t-label
+      { 
+        position: absolute;
+        top: 780px;
+        left:180px;
+      }
+      .e{
+        position: absolute;
+        top: 850px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .e-label
+      { 
+        position: absolute;
+        top: 856px;
+        left:130px;
+        font-size: x-small;
+      }
+    
+     
+    
+    
+      .c{
+        position: absolute;
+        top: 700px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .c-label
+      { 
+        position: absolute;
+        top: 700px;
+        left: 180px;
+      }
+      .admin{
+    
+        position: absolute;
+        top: 460px;
+        left: 50px;
+        font-weight: bold;
+       
+      }
+      .admin-label{
+        position: absolute;
+        top: 460px;
+        left: 160px;
+     
+    
+      }
+      .my-travel-history {
+        position: absolute;
+        top: 412px;
+        left: 440px;
+        font-size: 26px;
+        font-weight: 800;
+        display: inline-block;
+        width: 320px;
+        height: 53px;
+        color:  #1D3D6E;
+      }
+    
+      .desktop-1-child1,
+      .rectangle-div {
+        position: absolute;
+        top: 504px;
+        left: 461px;
+        border-radius: 30px;
+        background-color:#23477b;
+        width: 250px;
+        border: 1px solid black;
+        height: 210px;
+      }
+  
+  
+      .date,
+  
+      .location {
+        position: absolute;
+        top: 560px;
+        left: 482px;
+        font-size: large;
+        font-weight: 850;
+        display: inline-block;
+        width: 210px;
+        height: 55px;
+        color:  #050e1d;
+      }
+      
+      .date
+     {
+        top: 638px;
+        left: 473px;
+        width: 227px;
+        height: 88px;
+        font-size: large;
+      }
+    
+      .desktop-1-child2,
+      .rectangle-icon {
+        display: none;
+      }
+  
+    
+    }
+  
+    @media  (max-width: 730px)  {
+      .desktop-1-child {
+        height: 400px; /* Adjust as needed */
+      }
+    
+      .my-profile {
+        position: absolute;
+        top: 53px;
+        left: 40px;
+        font-size: 30px;
+        font-weight: 800;
+        color: #1D3D6E;
+        display: inline-block;
+        width: 271px;
+        height: 51px;
+        border-radius: 3px;
+        border-color: #fff9f9;
+      }
+    
+    
+    
+      .desktop-1-item {
+        position: absolute;
+        top: 30px;
+        left: 24px;
+        border-radius: var(--br-12xl);
+        width: 321px;
+        height: 77px;
+        mix-blend-mode: multiply;
+      }
+    
+    
+      .desktop-1-inner {
+        position: absolute;
+        top: 390px;
+        left: 15px;
+        border-radius: 51px;
+        background-color: #23477b;
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 280px;
+        height: 534px;
+      }
+     
+    
+      .g {
+        position: absolute;
+        top: 540px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .g-label
+      { 
+        position: absolute;
+        top: 540px;
+        left: 180px;
+      }
+    
+      .a{
+        position: absolute;
+        top: 620px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .a-label
+      { 
+        position: absolute;
+        top: 620px;
+        left: 180px;
+      }
+      .t{
+        position: absolute;
+        top: 780px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .t-label
+      { 
+        position: absolute;
+        top: 780px;
+        left:180px;
+      }
+      .e{
+        position: absolute;
+        top: 850px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .e-label
+      { 
+        position: absolute;
+        top: 856px;
+        left:120px;
+        font-size: x-small;
+      }
+    
+     
+    
+    
+      .c{
+        position: absolute;
+        top: 700px;
+        left: 50px;
+        font-weight: bold;
+      }
+    
+      .c-label
+      { 
+        position: absolute;
+        top: 700px;
+        left: 180px;
+      }
+      .admin{
+    
+        position: absolute;
+        top: 460px;
+        left: 50px;
+        font-weight: bold;
+       
+      }
+      .admin-label{
+        position: absolute;
+        top: 460px;
+        left: 150px;
+     
+    
+      }
+      .my-travel-history {
+        position: absolute;
+        top: 412px;
+        left: 240px;
+        font-size: 26px;
+        font-weight: 800;
+        display: inline-block;
+        width: 320px;
+        height: 53px;
+        color:  #1D3D6E;
+     
+      }
+    
+      .desktop-1-child1,
+      .rectangle-div {
+        position: absolute;
+        top: 504px;
+        left: 301px;
+        border-radius: 30px;
+        background-color:#23477b;
+        width: 180px;
+        border: 1px solid black;
+        height: 230px;
+      }
+  
+  
+      .date,
+  
+      .location {
+        position: absolute;
+        top: 560px;
+        left: 286px;
+        font-size: large;
+        font-weight: 850;
+        display: inline-block;
+        width: 210px;
+        height: 55px;
+        color:  #fff;
+      }
+      
+      .date
+     {
+        top: 638px;
+        left: 280px;
+        width: 227px;
+        height: 88px;
+        font-size: large;
+      }
+    
+      .desktop-1-child2,
+      .rectangle-icon {
+        display: none;
+      }
+  
+    
+    }

@@ -1,0 +1,469 @@
+.maincontainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px; /* Adjust the padding to push content below the navbar */
+    height: calc(100vh - 50px); /* Subtract navbar height from viewport height */
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .backgroundImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+  }
+  
+  .content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Center the content */
+    text-align: center;
+    color: #fff;
+    z-index: 1; 
+  }
+  
+  .content h1 {
+    font-size: 2.0rem;
+    padding-bottom: 10px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 100%; /* Limit the width to container width */
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0; /* Start with opacity 0 */
+  }
+  
+
+.content h1.show,
+.content p.show {
+  opacity: 1; /* Transition to full opacity when class 'show' is added */
+}
+  .content p {
+    font-size: 1.25rem;    
+    margin-bottom: 20px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0; /* Start with opacity 0 */
+  }
+  .buttoncontainer {
+    margin-top: 50px; /* Adjust the margin top to move the button down */
+    text-align: center; /* Center the button horizontally */
+  }
+  
+  
+  .getStartedButton {
+    background-color: #FEBA3F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .getStartedButton:hover {
+    background-color: #ffcb69;
+  }
+
+
+  .servicesContainer {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .servicesList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow services to wrap to the next line if needed */
+  }
+  
+  .service {
+    width: 200px; /* Adjust width of each service container */
+    height: 150px; /* Adjust height of each service container */
+    margin: 20px; /* Adjust margin between service containers */
+    background-color: #f0f0f0; /* Background color of service containers */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .service:hover {
+    transform: scale(1.1); /* Increase scale on hover */
+  }
+
+  .service-Link{
+    text-decoration: none;
+  }
+  
+
+
+  .Service-Heading {
+    margin: 0; /* Remove default margin */
+    font-size: 0.9rem; /* Adjust font size as needed */
+    font-style: normal;
+    color: #1D3D6E;
+  }
+
+  .servicesHeader{
+    padding-bottom: 20px;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(red, green, rgb(137, 93, 218), alpha);
+  }
+  
+  
+  .icon-container h3 {
+    margin-top: 15px; /* Adjust margin top as needed */
+
+  }
+
+  .destinationContainer {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+  }
+  
+  .destinationHeader {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .destinationList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .destination {
+    width: calc(88.88% - 20px);
+    height: 350px;
+    margin: 0 10px 20px 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+  }
+  
+  .destinationContent {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 1;
+    width: calc(40% - 40px); /* Fixed width */
+    height: 35%;
+  }
+  .destination h3 {
+    font-size: 1.2rem;
+  }
+  
+  .destination p {
+    font-size: 0.9rem;
+  }
+  
+  /* Style for small destination container */
+.destinationSmall {
+  width: calc(44.44% - 20px); /* Decreased width */
+  height: 250px;
+  margin: 0 10px 20px 10px;
+  position: relative;
+}
+
+.destinationSmall .destinationContent {
+  height: 50%;
+  width: calc(70% - 40px);
+  bottom: 20px;
+  left: 20px;
+}
+
+.destinationContent {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.destinationbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.destinationContent {
+  transform: scale(0.8);
+  transition: transform 0.5s ease-in-out;
+}
+
+.destination:hover .destinationContent {
+  transform: scale(1);
+}
+
+
+.blogContainer {
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.blogHeader {
+  margin-bottom: 40px;
+}
+
+.blogList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blogPost {
+  width: 300px;
+  margin: 0 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.blogPost:hover {
+  transform: translateY(-5px);
+}
+
+.blogPost img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blogContent {
+  padding: 20px;
+}
+
+.blogContent h3 {
+  margin-bottom: 10px;
+}
+
+.blogContent p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.blogContent a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1D3D6E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* For screens smaller than 768px (tablets and below) */
+@media screen and (max-width: 768px) {
+  .maincontainer {
+    padding-top: 100px;
+    height: calc(100vh - 30px);
+  }
+  .content h1 {
+    font-size: 1.2rem;
+    margin-top: 100px;
+  }
+
+  .content p {
+    font-size: 0.8rem;
+    margin-bottom: 10px; /* Adjust margin bottom */
+  }
+
+  .buttoncontainer {
+    margin-top: 20px;
+  }
+
+  .servicesContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .service {
+    width: 150px;
+    height: 120px;
+    margin: 15px;
+  }
+
+  .service h3 {
+    font-size: 0.7rem;
+  }
+
+  .destinationList {
+    margin-top: 30px;
+  }
+
+  .destination {
+    width: calc(100% - 20px);
+    margin: 0 10px 20px 10px;
+    height: 250px;
+  }
+
+  .destination h3 {
+    font-size: 1rem;
+  }
+
+  .destination p {
+    font-size: 0.8rem;
+  }
+
+  .destinationContent {
+    width: calc(50% - 40px);
+    padding:10px
+  }
+
+  .destinationSmall {
+    width: calc(100% - 20px);
+    margin: 0 10px 20px 10px;
+    height: 200px;
+  }
+
+  .destinationSmall .destinationContent {
+    width: calc(70% - 40px);
+  }
+
+  .blogContainer {
+    margin-top: 150px;
+  }
+
+  .blogPost {
+    width: calc(100% - 40px);
+    margin: 0 20px 20px;
+  }
+
+  .blogPost img {
+    height: 150px;
+  }
+
+  .blogContent {
+    padding: 15px;
+  }
+
+  .blogContent h3 {
+    font-size: 1rem;
+  }
+
+  .blogContent p {
+    font-size: 0.8rem;
+  }
+}
+
+/* For screens smaller than 400px (small smartphones) */
+@media screen and (max-width: 400px) {
+  .maincontainer {
+   margin-top: 100px; /* Adjust the padding for smaller screens */
+  }
+  .content h1 {
+    margin-top: 100px;
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  .content p {
+    font-size: 0.8rem;
+    margin-bottom: 10px; /* Adjust margin bottom */
+  }
+
+  .buttoncontainer {
+    margin-top: 20px;
+  }
+
+  .servicesContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .service {
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .service h3 {
+    font-size: 0.6rem;
+  }
+
+  .destinationList {
+    margin-top: 20px;
+  }
+
+  .destination {
+    width: calc(100% - 20px);
+    margin: 0 10px 20px 10px;
+    height: 180px;
+  }
+
+  .destination h3 {
+    font-size: 0.9rem;
+  }
+
+  .destination p {
+    font-size: 0.7rem;
+  }
+
+  .destinationContent {
+    width: calc(50% - 40px);
+    padding: 10px;
+  }
+
+  .destinationSmall {
+    width: calc(100% - 20px);
+    margin: 0 10px 20px 10px;
+    height: 150px;
+  }
+
+  .destinationSmall .destinationContent {
+    width: calc(70% - 40px);
+  }
+
+  .blogContainer {
+    margin-top: 100px;
+  }
+
+  .blogPost {
+    width: calc(100% - 40px);
+    margin: 0 20px 20px;
+  }
+
+  .blogPost img {
+    height: 120px;
+  }
+
+  .blogContent {
+    padding: 10px;
+  }
+
+  .blogContent h3 {
+    font-size: 0.9rem;
+  }
+
+  .blogContent p {
+    font-size: 0.6rem;
+  }
+}
